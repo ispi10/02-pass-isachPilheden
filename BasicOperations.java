@@ -1,5 +1,11 @@
-package com.example.maven.first_project;
+package com.example.maven.calculator_interfaces;
 
 public interface BasicOperations {
+	public double addition		(double firstNumber, double secondNumber);
+	public double subtraction	(double firstNumber, double secondNumber);
+	public double multiplication(double firstNumber, double secondNumber);
+	public double division		(double firstNumber, double secondNumber);
+	
+	
 
 }
