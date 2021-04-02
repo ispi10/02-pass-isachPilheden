@@ -1,5 +1,4 @@
 package com.example.maven.calculator.classes;
-import com.example.maven.calculator_interfaces.BasicOperations;
 
 public class BasicCalculator {
 	
@@ -17,8 +16,8 @@ public class BasicCalculator {
 	public double division(double firstNumber, double secondNumber) {
 		double result = firstNumber / secondNumber;
 		if (Double.isInfinite(result)) {
-			System.out.println("Impossible");
-			return -0.125;
+			System.out.println("Impossible, can't divide by 0");
+			return 0.0;
 		}
 		else {
 			return result;
